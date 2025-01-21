@@ -6,11 +6,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+.container {
+  max-width: 1160px;
+}
 /* Navbar Section Start */
 .nav-bar {
-  width: 1160px;
-  height: 62px;
+  max-width: 100%;
+  height: auto;
   margin: 10px 141px;
 }
 .nav-content {
@@ -147,8 +149,8 @@ hr {
 
 /* Hero Section Start */
 .hero {
-  width: 1160px;
-  height: 575px;
+  max-width: 100%;
+  height: auto;
   margin: 100px 141px;
   display: flex;
   justify-content: center;
@@ -156,8 +158,6 @@ hr {
   gap: 50px;
 }
 .hero .left {
-  width: 640px;
-  height: 331px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,6 +166,7 @@ hr {
   font-family: Quicksand;
   width: 640px;
   height: 183px;
+  padding-right: 10%;
   font-size: 56px;
   font-weight: 700;
   line-height: 61px;
@@ -188,6 +189,7 @@ hr {
   letter-spacing: 0%;
   text-align: left;
   margin: 24px 0px;
+  padding-right: 10%;
 }
 .hero .left button {
   width: 197px;
@@ -208,4 +210,54 @@ hr {
   width: 468.61px;
   height: 575px;
 }
+
+/* Mobile Responsive for Hero Section */
+@media screen and (max-width: 576px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero .right {
+    width: 357px;
+    height: auto;
+  }
+  .hero .right img {
+    width: 100%;
+    height: auto;
+  }
+  .hero .left {
+    width: 357px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .left h1,
+  p,
+  button {
+    width: 100%;
+    height: auto;
+  }
+  .hero .left h1 {
+    font-family: Quicksand;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .hero .left p {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+  }
+  .hero .left button {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+}
+/* Mobile Responsive for Hero Section */
+
 /* Hero Section End */
