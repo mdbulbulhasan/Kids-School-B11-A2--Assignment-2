@@ -1,0 +1,106 @@
+/* Add Quick Sand font */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Section Start */
+.nav-bar {
+  margin: 10px 0px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15.7px;
+}
+.nav-logo img {
+  width: 52.61px;
+  height: 62px;
+}
+.nav-logo h1 {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.nav-menu ul li {
+  list-style: none;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* For Color Navigation Links */
+#home {
+  color: rgb(254, 163, 1);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#about {
+  color: rgb(1, 172, 253);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#facilities {
+  color: rgb(5, 212, 223);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#admission {
+  color: rgb(93, 88, 239);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* For Color Navigation Links */
+.nav-button button {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 12px;
+  width: 197px;
+  height: 50px;
+  padding: 10px;
+  background: rgb(254, 163, 1);
+  margin: 0px 10px;
+  cursor: pointer;
+  border: none;
+}
+/* Navbar Section End */
