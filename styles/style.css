@@ -714,7 +714,7 @@ hr {
   flex-direction: column;
   justify-content: flex-start;
   gap: 32px;
-  margin-top: 6%;
+  margin-top: 2%;
 }
 .footer-content .middle h1 {
   color: rgb(255, 255, 255);
@@ -749,7 +749,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-bottom: 8%;
+  margin-bottom: 13%;
 }
 .footer-content .right h1 {
   color: rgb(255, 255, 255);
