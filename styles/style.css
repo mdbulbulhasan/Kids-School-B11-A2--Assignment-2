@@ -479,7 +479,8 @@ hr {
 .stories-content {
   max-width: 100%;
   height: auto;
-  margin: 100px 141px;
+  margin: 0px 141px 0px 141px;
+  padding: 60px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -603,7 +604,7 @@ hr {
     margin: 0;
     padding: 0;
   }
-  
+
   .stories-content h1 {
     color: rgb(0, 0, 0);
     font-family: Quicksand;
@@ -654,6 +655,180 @@ hr {
     letter-spacing: 0%;
     text-align: left;
   }
+  .stories-content button {
+    margin-bottom: 40px;
+  }
 }
 /* Make it Responsive */
 /* Stories Section End */
+
+/* Footer Section Start */
+.footer {
+  background: rgb(1, 172, 253);
+}
+.footer-content {
+  max-width: 100%;
+  height: auto;
+  margin: 0px 228.09px 0px 140px;
+  padding: 60px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content .left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-content .left .l-h {
+  display: flex;
+}
+.footer-content .left .l-h img {
+  width: 82.9px;
+  height: 81.65px;
+}
+.footer-content .left h1 {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 42.14px;
+  font-weight: 700;
+  line-height: 39.51px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 206.11px;
+}
+.footer-content .left p {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-content .middle {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+  margin-top: 6%;
+}
+.footer-content .middle h1 {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer-content .middle .link {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.footer-content .middle .link li {
+  list-style: none;
+}
+.footer-content .middle .link li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}
+.footer-content .right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 8%;
+}
+.footer-content .right h1 {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer-content .icon {
+  display: flex;
+  flex-direction: row;
+  gap: 40%;
+  width: 40.61px;
+  height: 40px;
+}
+
+/* Make Footer Section Responsive */
+@media screen and (max-width: 576px) {
+  .footer-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer-content .left {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 12px 0px 12px;
+  }
+  .footer-content .left .l-h img {
+    width: 69.23px;
+    height: 69.23px;
+  }
+  .footer-content .left p {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .footer-content .middle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 230px 32px 20px;
+  }
+  .footer-content .middle h1 {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .footer-content .middle .link a {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .footer-content .right {
+    width: 100%;
+    height: auto;
+    padding: 0px 22px 60px 20px;
+  }
+}
+/* Make Footer Section Responsive */
+/* Footer Section End */
