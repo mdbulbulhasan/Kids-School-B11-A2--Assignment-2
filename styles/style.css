@@ -273,6 +273,13 @@ hr {
 /* Hero Section End */
 
 /* Curriculum Section Start */
+.curriculum-container {
+  width: 100%;
+  height: auto;
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-position: center;
+}
 .curriculum {
   max-width: 100%;
   height: auto;
@@ -282,9 +289,6 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  background-image: url("../assets/bg.png");
-  background-size: cover;
-  background-position: center;
 }
 
 .heading-2 h1 {
@@ -464,5 +468,192 @@ hr {
 /* Curriculum Section End */
 
 /* Stories Section Start */
+.stories {
+  width: 100%;
+  height: auto;
+  background-image: url("../assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background-size: cover;
+  background-position: center;
+}
+.stories-content {
+  max-width: 100%;
+  height: auto;
+  margin: 100px 141px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.stories-content h1 {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
+.card-stories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
+}
+.card-stories #card-1 {
+  grid-row: span 2;
+  background: rgb(255, 255, 255);
+  width: 540px;
+  height: auto;
+}
+.card-stories #card-1 img {
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
+}
+.card-stories #card-1 h1 {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.35px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 402.49px;
+  height: auto;
+  margin: 0px 38.35px 51.77px 70px;
+}
+.card-stories #card-1 p {
+  color: rgb(102, 102, 102);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 400.06px;
+  height: auto;
+  margin: 0px 38.35px 51.77px 70px;
+}
+.card-stories #card-2 h1 {
+  padding: 1% 15% 0% 10%;
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-stories #card-2 img {
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
+}
+
+.card-stories #card-3 img {
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
+}
+.card-stories #card-3 h1 {
+  padding: 1% 15% 0% 10%;
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-stories #card-4 img {
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
+}
+.card-stories #card-4 h1 {
+  padding: 1% 15% 0% 10%;
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-stories #card-5 img {
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
+}
+.card-stories #card-5 h1 {
+  padding: 1% 15% 0% 10%;
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* Make it Responsive */
+@media screen and (max-width: 576px) {
+  .card-stories #card-1 {
+    display: none;
+  }
+  .stories-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .stories-content h1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .card-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 16.26px 0 16.26px;
+  }
+  .card-stories #card-2 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .card-stories #card-3 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .card-stories #card-4 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .card-stories #card-5 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+/* Make it Responsive */
 /* Stories Section End */
