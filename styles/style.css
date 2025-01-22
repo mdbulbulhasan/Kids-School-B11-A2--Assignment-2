@@ -191,7 +191,7 @@ hr {
   margin: 24px 0px;
   padding-right: 10%;
 }
-.hero .left button {
+.btn {
   width: 197px;
   height: 50px;
   border-radius: 12px;
@@ -460,4 +460,9 @@ hr {
   }
 }
 /* Make Curriculam Responsive */
+
 /* Curriculum Section End */
+
+/* Stories Section Start */
+
+/* Stories Section End */
