@@ -785,6 +785,7 @@ hr {
     flex-direction: column;
     gap: 20px;
     padding: 10px 12px 0px 12px;
+    margin-top: 66px;
   }
   .footer-content .left .l-h img {
     width: 69.23px;
@@ -814,6 +815,7 @@ hr {
     line-height: 25px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 32px;
   }
 
   .footer-content .middle .link a {
@@ -829,6 +831,7 @@ hr {
     width: 100%;
     height: auto;
     padding: 0px 22px 60px 20px;
+    margin-top: 32px;
   }
 }
 /* Make Footer Section Responsive */
